@@ -1,0 +1,506 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 10pt Arial,Helvetica,sans-serif;
+    background: #EFEFEF;
+    background-image: url(../images/bg.png);
+}
+
+.btn-action {
+    border: 1px solid #000;
+    padding: 3px 5px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+}
+
+#page
+{
+	position:relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: white;
+}
+
+#header
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/header.png);
+    height: 159px;
+}
+
+#logo
+{
+    padding: 10px 20px;
+    font-size: 200%;
+}
+
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+}
+
+div.flash-error
+{
+    background:#FBE3E4;
+    color:#8a1f11;
+    border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+    background:#FFF6BF;
+    color:#514721;
+    border-color:#FFD324;
+}
+
+div.flash-success
+{
+    background:#E6EFC2;
+    color:#264409;
+    border-color:#C6D880;
+}
+
+div.flash-error a
+{
+    color:#8a1f11;
+}
+
+div.flash-notice a
+{
+    color:#514721;
+}
+
+div.flash-success a
+{
+    color:#264409;
+}
+
+div.form .rememberMe label
+{
+    display: inline;
+}
+
+div.view
+{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #C9E0ED;
+}
+
+div.view.START
+{
+    background-color: #C6D880;
+}
+
+div.view.END
+{
+    background-color: #FBC2C4;
+}
+
+div.search-form
+{
+    padding: 10px;
+    margin: 10px 0;
+    background: #eee;
+}
+
+#content
+{
+	width: 656px;
+	position: relative;
+	padding: 20px;
+	border: 1px solid rgb(148, 144, 138);
+	margin: auto;
+	margin-top: 17px;
+	box-shadow: 0px 0px 8px rgb(156, 151, 151);
+}
+
+#content .img-home
+{
+    width: 100%;
+}
+
+/* Menu */
+.icon-line 
+{
+    background-image: url(../images/line.png);
+}
+
+.icon-station 
+{
+    background-image: url(../images/station.png);
+}
+.icon-vehicle 
+{
+    background-image: url(../images/vehicle.png);
+}
+.icon-driver 
+{
+    background-image: url(../images/driver.png);
+}
+.icon-xml 
+{
+    background-image: url(../images/xml.png);
+}
+.icon-user 
+{
+    background-image: url(../images/user.png);
+}
+#mainmenu
+{
+	height:86px;
+	background-image:url(../images/menu.png);
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+}
+
+
+#mainmenu ul li
+{
+	display: inline;
+	text-align: center;
+	padding-right: 10px;
+}
+
+#mainmenu ul li a
+{
+
+	display: block;
+	text-align: center;
+	float: left;
+	width: 73px;
+	outline: none;
+	color: #cecdcb;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+#mainmenu ul li a:hover span {
+	background-position: -64px 0;
+}
+
+#mainmenu ul li a:visited span {
+	background-position: -128px 0;
+}
+
+#mainmenu ul li  a span {
+	width: 64px;
+	height: 64px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: block;
+	margin: 0 auto 6px;
+	margin-top: 4px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #6399cd;
+	text-decoration:none;
+}
+
+div.breadcrumbs
+{
+    font-size: 0.9em;
+    padding: 5px 20px;
+    position: absolute;
+    top: 218px;
+    left: 740px;
+}
+
+div.breadcrumbs span
+{
+    font-weight: bold;
+}
+
+.portlet-decoration
+{
+    padding: 3px 8px;
+    background: #84817d;
+    border-left: 5px solid #14429c;
+}
+
+.portlet-title
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.portlet-content
+{
+    font-size:0.9em;
+    margin: 0 0 15px 0;
+    padding: 5px 8px;
+    background:#ececeb;
+}
+
+.portlet-content ul
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.portlet-content li
+{
+    padding: 2px 0 4px 0px;
+}
+
+#sidebar
+{
+    padding: 20px 20px 20px 0;
+}
+
+
+.operations
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.operations li
+{
+    padding-bottom: 2px;
+}
+
+.operations li a
+{
+    font: bold 12px Arial;
+    color: #84817d;
+    display: block;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.operations li a:visited
+{
+    color: #0066A4;
+}
+
+.operations li a:hover
+{
+    background: #84817d;
+	color:#fff;
+}
+
+#mainmenu #access {
+	top:0px;
+	left:0px;
+	color:#fff;
+}
+
+#mainmenu #access a {
+    color: #fff;
+    padding: 23px;
+    border: 1px solid #999;
+    display: inline-block;
+    margin-top: -15px;
+    text-decoration: none;
+    background: #6682be;
+    border-radius: 5px;
+}
+
+#mainmenu #access a:hover {
+    background: #f6eb79;
+}
+
+button.logout {
+    color: #fff;
+    padding: 20px 10px;
+    border: 1px solid #999;
+    display: inline-block;
+    margin-top: -15px;
+    text-decoration: none;
+    background: #6682be;
+    border-radius: 5px;
+}
+
+button.logout:hover {
+    background: #f6eb79;
+}
+
+#footer
+{
+	margin-top:40px;
+    position: relative;
+    height: 84px;
+    padding: 10px;
+    font-size: 0.5em;
+    text-align: center;
+    background-image: url(../images/footer.png);
+}
+
+#footer ul {
+    position: absolute;
+    width: 510px;
+    top: 45px;
+    left: 405px;
+    font-size: 13px;
+}
+
+#footer ul li {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    list-style-image: url(../images/b_li.png);
+}
+
+#footer ul li.sitemap {
+    list-style: none;
+    width: 100px;
+}
+
+#footer ul li.copyr {
+    width: 190px;
+    margin-right: 4px;
+}
+
+#footer ul li a {
+    color: #fff;
+}
+
+div.form input,
+div.form textarea,
+div.form select
+{
+	margin: 0.2em 0 0.5em 0;
+}
+
+div.form fieldset
+{
+	border: 1px solid #DDD;
+	padding: 10px;
+	margin: 0 0 10px 0;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+}
+
+div.form label
+{
+	font-weight: bold;
+	font-size: 0.9em;
+	display: block;
+}
+
+div.form .row
+{
+	margin: 5px 0;
+}
+
+div.form .hint
+{
+	margin: 0;
+	padding: 0;
+	color: #999;
+}
+
+div.form .note
+{
+	font-style: italic;
+}
+
+div.form span.required
+{
+	color: red;
+}
+
+div.form div.error label:first-child,
+div.form label.error,
+div.form span.error
+{
+	color: #C00;
+}
+
+div.form div.error input,
+div.form div.error textarea,
+div.form div.error select,
+div.form input.error,
+div.form textarea.error,
+div.form select.error
+{
+	background: #FEE;
+	border-color: #C00;
+}
+
+div.form div.success input,
+div.form div.success textarea,
+div.form div.success select,
+div.form input.success,
+div.form textarea.success,
+div.form select.success
+{
+	background: #E6EFC2;
+	border-color: #C6D880;
+}
+
+div.form div.success label
+{
+	color: inherit;
+}
+
+div.form .errorSummary
+{
+	border: 2px solid #C00;
+	padding: 7px 7px 12px 7px;
+	margin: 0 0 20px 0;
+	background: #FEE;
+	font-size: 0.9em;
+}
+
+div.form .errorMessage
+{
+	color: red;
+	font-size: 0.9em;
+}
+
+div.form .errorSummary p
+{
+	margin: 0;
+	padding: 5px;
+}
+
+div.form .errorSummary ul
+{
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+div.wide.form label
+{
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	text-align: right;
+	width: 100px;
+}
+
+div.wide.form .row
+{
+	clear: left;
+}
+
+div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
+{
+	clear: left;
+	padding-left: 110px;
+}
